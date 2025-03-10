@@ -31,6 +31,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: 公众号拉取
+          project: 公众号抓取
           entrypoint: server/index.ts
           root: .output
